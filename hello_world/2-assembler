@@ -1,2 +1,2 @@
 #!/bin/bash
-__asm__  $CFILE
+gcc -S  $CFILE
