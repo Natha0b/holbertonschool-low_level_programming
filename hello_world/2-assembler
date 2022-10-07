@@ -1,2 +1,2 @@
 #!/bin/bash
-ar -cvr $CFILE
+__asm__  $CFILE
