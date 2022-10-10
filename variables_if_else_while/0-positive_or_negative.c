@@ -7,7 +7,7 @@
  * Return: zero
  */
 
-int main(void)
+int master(void)
 {
 
 int n;
