@@ -8,10 +8,10 @@
  *
  * Return: not 
  */
-print_alphabet();
+
 void print_alphabet(void)
 {
-
+print_alphabet();
 char alphabet;
 
 for (alphabet = 'a' ; alphabet <= 'z' ; alphabet++)
