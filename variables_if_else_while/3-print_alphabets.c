@@ -3,30 +3,30 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *  * main - Alphabet
- *   *
- *    * Return: zero
- *     */
+ * main - Alphabet
+ *
+ * Return: zero
+ */
 
 int main(void)
 {
 
-	char alphabet;
-	char uppercase;
+char alphabet;
+char uppercase;
 
-	for (alphabet = 'a' ; alphabet <= 'z' ; alphabet++)
+for (alphabet = 'a' ; alphabet <= 'z' ; alphabet++)
 
-	{
-	putchar(alphabet);
-	}
+{
+putchar(alphabet);
+}
 
-	for (uppercase = 'A' ; uppercase <= 'Z' ; uppercase++)
+for (uppercase = 'A' ; uppercase <= 'Z' ; uppercase++)
 
-        {
-	putchar(uppercase);
-        }
+{
+putchar(uppercase);
+}
 
-	putchar('\n');
+putchar('\n');
 
-	return (0);
-}	
+return (0);
+}
