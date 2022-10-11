@@ -5,10 +5,10 @@
 #include "main.h"
 /**
  * main - check the code for Holberton School students.
- * print_alphabet - prints the alphabet
+ * print_alphabet - print 
  * Return: void
  */
-void printalphabet(void)
+void print_alphabet(void)
 {
 
 char alphabet;
