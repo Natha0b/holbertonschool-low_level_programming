@@ -12,13 +12,15 @@
 int main(void)
 {
 
-char print_alphabet;
 
-for (print_alphabet = 'a' ; print_alphabet <= 'z' ; print_alphabet++)
+char alphabet;
+
+for (alphabet = 'a' ; alphabet <= 'z' ; alphabet++)
 
 {
-putchar(print_alphabet);
+putchar(alphabet);
 }
+
 
 putchar('\n');
 
