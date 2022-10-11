@@ -6,9 +6,9 @@
 /**
  * main - check the code for Holberton School students.
  *
- * Return: Always 0.
+ * Return: void
  */
-void | printalphabet(void)
+void printalphabet(void)
 {
 
 char alphabet;
