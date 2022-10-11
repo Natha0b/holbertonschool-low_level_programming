@@ -11,8 +11,8 @@
 
 int main(void)
 {
-
-void print_alphabet(void);
+char alphabet;
+void print_alphabet;
 
 for (alphabet = 'a' ; alphabet <= 'z' ; alphabet++)
 
