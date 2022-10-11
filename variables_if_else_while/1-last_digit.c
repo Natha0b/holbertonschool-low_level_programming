@@ -17,11 +17,11 @@ n = rand() - RAND_MAX / 2;
 Last_digit_of= n % 10;
 
 if (n > 5)
-printf("Last digit of %d is %d and is greater than 5\n", n, last_digit_of);
+printf("Last digit of %d is %d and is greater than 5\n");
 else if (n == 0)
-printf("Last digit of %d is %d and is 0\n", n, last_digit_of);
+printf("Last digit of %d is %d and is 0\n");
 else if (n < 6)
-printf("Last digit of %d is %d and is less than 6 and not 0\n", n, last_digt_of);
+printf("Last digit of %d is %d and is less than 6 and not 0\n");
 
 return (0)
 
