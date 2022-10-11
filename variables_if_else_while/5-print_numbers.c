@@ -15,7 +15,7 @@ char numbers;
 
 for (numbers = '0' ; numbers <= '9' ; numbers++)
 
-	
+
 {
 putchar(numbers);
 }
