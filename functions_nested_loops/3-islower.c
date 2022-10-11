@@ -1,8 +1,8 @@
-#include <stdio.h>
+
 #include "main.h"
 /**
- * islower - caracter lowercase
- * Return : zero
+ * _islower - caracter lowercase
+ * Return : zero or one
  */
 int _islower(int c)
 
