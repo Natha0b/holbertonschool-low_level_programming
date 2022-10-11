@@ -12,11 +12,14 @@ int main(void)
 {
 
 	char alphabet;
+	char uppercase;
 
-	for (alphabet = 'a' 'A' ; alphabet <= 'z' 'Z' ; alphabet++)
+	for (alphabet = 'a' ; alphabet <= 'z' ; alphabet++)
+	for (uppercase = 'A' ; uppercase <= 'Z' ; uppercase++)	
 
 	{
 		putchar(alphabet);
+		putchar(uppercase);
 	}
 
 	putchar('\n');
