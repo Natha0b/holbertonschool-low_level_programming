@@ -1,21 +1,18 @@
 nclude "main.h"
 /**
- * print_alphabet - print
+ * islower - caracter lowercase
+ * Return : zero
  */
 int _islower(int c)
 {
-
-int letter;
-
-if 
-
-islower ()
-
-{
-_putchar(alphabet);
+if (islower(c))
+{	
+printf('1');
 }
-
-_putchar('\n');
-
+else
+{
+printf('0');
+}
+return 0;
 
 }
