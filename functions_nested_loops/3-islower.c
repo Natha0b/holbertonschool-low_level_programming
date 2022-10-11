@@ -1,7 +1,7 @@
 
 #include "main.h"
 /**
- * Description : _islower - check lowercase
+ * _islower - check lowercase
  * @c: character 
  * Return : zero or one
  */
@@ -13,5 +13,4 @@ return (1);
 
 else
 return (0);
-
 }
