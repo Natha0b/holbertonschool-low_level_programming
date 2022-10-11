@@ -4,11 +4,11 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - Alphabet
+ * main - check the code for Holberton School students.
  *
- * Return: not 
+ * Return: Always 0.
  */
-void print_alphabet(void)
+int main print_alphabet(void)
 {
 
 char alphabet;
