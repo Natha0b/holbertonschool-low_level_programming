@@ -5,7 +5,7 @@
 #include "main.h"
 /**
  * main - check the code for Holberton School students.
- *
+ * print_alphabet - prints the alphabet
  * Return: void
  */
 void printalphabet(void)
