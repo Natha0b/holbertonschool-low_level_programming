@@ -18,8 +18,9 @@ for (alphabet = 'a' ; alphabet <= 'z' ; alphabet++)
 if (alphabet == 'e' || alphabet == 'q'; alphabet++) 
 
 else
+
 {
-putchar(alphabet);
+putchar(alphabet ; alphabet++);
 }
 
 putchar('\n');
