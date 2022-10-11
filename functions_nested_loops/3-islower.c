@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 /**
  * islower - caracter lowercase
  * Return : zero
