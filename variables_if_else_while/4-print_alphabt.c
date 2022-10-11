@@ -15,7 +15,7 @@ char alphabet;
 
 for (alphabet = 'a' ; alphabet <= 'z' ; alphabet++)
 
-if (alphabet == 'e' || alphabet == 'q' alphabet++) 
+if (alphabet == 'e' || alphabet == 'q') 
 
 
 {
