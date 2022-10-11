@@ -4,7 +4,6 @@
  * Return : zero
  */
 int _islower(int c)
-int c;
 
 {
 if (islower(c))
