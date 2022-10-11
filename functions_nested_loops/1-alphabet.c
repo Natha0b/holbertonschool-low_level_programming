@@ -11,13 +11,13 @@
 
 int main(void)
 {
-char alphabet;
-void print_alphabet;
 
-for (alphabet = 'a' ; alphabet <= 'z' ; alphabet++)
+char print_alphabet;
+
+for (print_alphabet = 'a' ; print_alphabet <= 'z' ; print_alphabet++)
 
 {
-putchar(alphabet);
+putchar(print_alphabet);
 }
 
 putchar('\n');
