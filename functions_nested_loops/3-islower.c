@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * islower - caracter lowercase
