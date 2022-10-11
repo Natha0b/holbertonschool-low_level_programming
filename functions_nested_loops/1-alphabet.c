@@ -8,7 +8,6 @@
  *
  * Return: not 
  */
-
 void print_alphabet(void)
 {
 
@@ -22,5 +21,5 @@ putchar(alphabet);
 
 putchar('\n');
 
-print_alphabet();
+
 }
