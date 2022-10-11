@@ -6,10 +6,9 @@
 /**
  * main - Alphabet
  *
- * Return: zero
+ * Return: not 
  */
 
-int main(void)
 void print_alphabet(void)
 {
 
@@ -23,7 +22,5 @@ putchar(alphabet);
 
 
 putchar('\n');
-
-return (0);
 
 }
