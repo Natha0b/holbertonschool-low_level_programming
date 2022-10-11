@@ -3,8 +3,8 @@
  * print_alphabet_x10i - print
  */
 void print_alphabet_x10(void);
-{
 
+{
 char alphabet;
 int number = 0;
 
