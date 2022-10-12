@@ -21,8 +21,8 @@ _putchar(':');
 _putchar((minuto / 10) + '0');
 _putchar((minuto % 10) + '0');
 }
-}
 _putchar('\n');
+}
 }
 
 
