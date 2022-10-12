@@ -5,13 +5,15 @@
 
 void times_table(void)
 {
-int m;
-int n;
-int l;
+int filas;
+int colum;
+int ;
 
 {
 for(m= 1; m = 9; m++)
-for(n= 1; j <= l; n++)
-_putchar(m * n = l)
+
+_putchar(%d * %d = %d);
+_putchar(',')
+_putchar(' ')
 }
 }
