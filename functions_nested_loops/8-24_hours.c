@@ -2,6 +2,8 @@
 #include "main.h"
 /**
  *jack_bauer - every minute of the day 
+ *@h: character check
+ *@m: character check
  */
 
 void jack_bauer(void)
@@ -14,11 +16,11 @@ for (minuto = 0; minuto <= 59; minuto++)
 
 _putchar(hora / 10 + '0');
 _putchar(hora % 10 + '0');
-_putchar(':')
+_putchar(':');
 _putchar(minuto / 10 + '0');
 _putchar(minuto % 10 + '0');
-_putchar(':')
-_putchar('\n')
+_putchar(':');
+_putchar('\n');
 
 }	
 
