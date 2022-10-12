@@ -1,5 +1,5 @@
 #include "main.h"
-/*i*
+/**
  *print_sign - funcion
  *@n: character check
  *Return: zero or one
