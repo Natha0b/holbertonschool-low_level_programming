@@ -1,7 +1,7 @@
 
 #include "main.h"
 /**
- *_islower - check lowercase
+ *print_last_digit - check lowercase
  *@n: character check
  *
  *Return: zero or one
@@ -22,7 +22,7 @@ return (l);
 }
 
 else
-{	
+{
 _putchar(l + '0');
 return (l);
 }
