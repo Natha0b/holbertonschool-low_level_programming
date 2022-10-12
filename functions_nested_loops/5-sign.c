@@ -6,7 +6,7 @@
  * Return: zero or one
  */
 
-int print_sign(int n);
+int print_sign(int n)
 
 {
 
