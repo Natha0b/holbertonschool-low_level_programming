@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_sign - check lowercase
+ * print_sign - numbers 
  *@c: character check
  * 
  * Return: zero or one
