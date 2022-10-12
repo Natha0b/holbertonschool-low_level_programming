@@ -18,8 +18,9 @@ for (minuto = 0; minuto <= 59; minuto++)
 _putchar(hora / 10 + '0');
 _putchar(hora % 10 + '0');
 _putchar(':')
-_putchar(minutos / 10 + '0');
-_putchar(minutos % 10 + '0');
+_putchar(minuto / 10 + '0');
+_putchar(minuto % 10 + '0');
+_putchar(':')
 _putchar('\n')
 
 }	
