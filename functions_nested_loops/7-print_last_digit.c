@@ -16,13 +16,14 @@ if (n < 0)
 
 {
 l = l * -1;
-putchar(l + '0');
+_putchar(l + '0');
 return (l);
 
 }
 
 else
 {	
-putchar(l + '0');
+_putchar(l + '0');
 return (l);
-}	
+}
+}
