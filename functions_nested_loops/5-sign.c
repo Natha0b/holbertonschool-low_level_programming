@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- *_islower - check lowercase
- *
+ * print_sign - check lowercase
  *@c: character check
  * 
  * Return: zero or one
