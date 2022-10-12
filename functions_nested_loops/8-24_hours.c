@@ -1,9 +1,6 @@
-
 #include "main.h"
 /**
- *jack_bauer - every minute of the day 
- *@hora: character check
- *@minuto: character check
+ *jack_bauer - every minute of the day
  */
 
 void jack_bauer(void)
