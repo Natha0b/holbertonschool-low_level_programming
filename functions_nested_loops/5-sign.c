@@ -1,9 +1,8 @@
 #include "main.h"
 /**
- * print_sign - numbers 
+ *print_sign - numbers
  *@c: character check
- * 
- * Return: zero or one
+ *Return: zero or one
  */
 
 int print_sign(int n)
