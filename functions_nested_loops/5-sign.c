@@ -25,7 +25,7 @@ return (0);
 
 else
 {
-printf('-');
+_putchar('-');
 return (-1);
 }
 }
