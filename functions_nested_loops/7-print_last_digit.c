@@ -23,6 +23,6 @@ return (l);
 
 else
 {	
-putchar(l + '0);
+putchar(l + '0');
 return (l);
 }	
