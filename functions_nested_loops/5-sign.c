@@ -1,7 +1,7 @@
 #include "main.h"
-/**
- *print_sign - numbers
- *@c: character check
+/*i*
+ *print_sign - funcion
+ *@n: character check
  *Return: zero or one
  */
 
