@@ -35,5 +35,5 @@ _putchar(c + '0');
 }
 }
 c++;
-_putchar('\n);
+_putchar('\n');
 }
