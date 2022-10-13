@@ -17,7 +17,7 @@ if (n > 98)
 n--;
 }
 
-else 
+else if  
 {
 n++;
 }
