@@ -43,7 +43,6 @@ _putchar(operation + '0');
 }
 c++;
 _putchar('\n');
-
 }
 }
 }
