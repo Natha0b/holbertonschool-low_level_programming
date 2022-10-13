@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *@a: check value
- *@b: check value
+ *@a: value integer
+ *@b: value integer
  *add - numbers
  *Return: a and b
  */
