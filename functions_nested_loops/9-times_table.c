@@ -10,18 +10,19 @@ int filas;
 int colum;
 int c;
 
-c=0;
+c = 0;
 
 {
-for(filas = 0; filas <= 9; filas++)
+for (filas = 0; filas <= 9; filas++)
 {
-for(colum = 0; colum <= 9; colum++)
+for (colum = 0; colum <= 9; colum++)
 {
 
 int operation;
 
-operation = c * colum;
-if (c > 9)
+operation = c *colum;
+
+if (operation > 9)
 {
 _putchar(',');
 _putchar(' ');
