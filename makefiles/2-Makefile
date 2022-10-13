@@ -1,4 +1,4 @@
-CC = gcc -c -o school
+CC = gcc -o school
 SRC = main.c school.c
 OBJ = main.o school.o 
 NAME = school
