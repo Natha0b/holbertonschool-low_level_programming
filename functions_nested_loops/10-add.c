@@ -3,11 +3,11 @@
 /**
  *@a: value integer
  *@b: value integer
- *add - numbers
- *Return: a and b
+ *add - add numbers
+ *Return: result the a and b
  */
 
-int add(int a , int b)
+int add(int a, int b)
 {
 
 int result;
