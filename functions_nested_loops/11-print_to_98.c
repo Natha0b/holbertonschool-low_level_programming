@@ -3,12 +3,12 @@
 
 /**
  *@n: check number 
- *print_to_98 - print number 98
+ *print_to_98 - prints numbers
  */
 void print_to_98(int n)
 
 {
-while (n != 98)
+if (n != 98)
 {
 printf("%d, ", n);
 
