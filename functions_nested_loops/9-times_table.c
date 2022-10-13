@@ -10,6 +10,8 @@ int filas;
 int colum;
 int c;
 
+c=0;
+
 {
 for(filas = 0; filas <= 9; filas++)
 {
@@ -39,5 +41,6 @@ _putchar(c + '0');
 c++;
 _putchar('\n');
 
+}
 }
 }
