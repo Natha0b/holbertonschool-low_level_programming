@@ -3,4 +3,4 @@ SRC = main.c school.c
 OBJ = *.o 
 NAME = school
 all: $(OBJ)
-	$(CC) $(NAME)
+	$(CC) -c $(CPPFLAGS) $(CFLAGS) $^ -o $@
