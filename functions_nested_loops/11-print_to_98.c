@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- *main -  main - check the code 
+ *main -  main - check the code
+ *@n: check number 
  *print_to_98 - print number 98
  */
 void print_to_98(int n)
