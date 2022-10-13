@@ -15,6 +15,7 @@ for(filas = 0; filas <= 9; filas++)
 for(colum = 0; colum <= 9; colum++)
 {
 int ope;
+
 ope = c * colum;
 if (c > 9)
 {
@@ -36,4 +37,5 @@ _putchar(c + '0');
 }
 c++;
 _putchar('\n');
+}
 }
