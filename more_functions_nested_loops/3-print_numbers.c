@@ -6,8 +6,8 @@
  *numbers - variable
  */
 void print_numbers(void)
+
 {
-int numbers
 
 for (numbers = '0' ; numbers <= '8' ; numbers++)
 
