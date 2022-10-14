@@ -4,8 +4,6 @@
 
 /**
  *more_numbers - print numbers
- *@n: numbers
- *@numbers: numbers
  */
 void more_numbers(void)
 {
