@@ -2,17 +2,16 @@
 #include <stdio.h>
 
 /**
- *mul - print the multiplies
+ *mul - multiplies numbers
  *@a: multiplies caracter
  *@b: multiplies caracter
- *Return: zero
+ *Return: result
  */
 
 int mul(int a, int b)
 {
 
-mul = a * b;
-
+mul = (a * b);
 
 return (mul);
 
