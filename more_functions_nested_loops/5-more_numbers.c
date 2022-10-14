@@ -3,23 +3,27 @@
 #include <unistd.h>
 
 /**
- *print_most_numbers - print numbers
+ *more_numbers - print numbers
  *numbers - variable
  */
+void more_numbers(void)
+
 int numbers;
-int n = 0;
-
-
-while (n <= 9)
+int n;
 
 {
-for (numbers = '0' ; numbers <= '9' ; numbers++)
-
+for (numbers = '0' ; numbers < '10' ; numbers++)
+}
 {
-_putchar(numbers + '0');
+for (n = '0' ; n <= '14' ; n++)
+}
+{
+if (n > 9)
+_putchar("n % 10" + '0')
+_putchar("n / 10" + '0')
 }
 
-_putchar('\n');
-n++;
+_putchar('\n')
+
 }
-}
+
