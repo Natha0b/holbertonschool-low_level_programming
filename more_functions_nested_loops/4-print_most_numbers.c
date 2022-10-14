@@ -17,8 +17,8 @@ for (numbers = '0' ; numbers <= '9' ; numbers++)
 if (numbers != '2' && numbers != '4')
 
 {
-putchar(numbers);
+_putchar(numbers);
 }
 
-putchar('\n');
+_putchar('\n');
 
