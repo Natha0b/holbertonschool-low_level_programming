@@ -12,7 +12,7 @@ int mul(int a, int b)
 {
 
 mul = (a * b);
-printf("mul %d and %d is %d",a,b,mul);
+
 return (mul);
 
 }
