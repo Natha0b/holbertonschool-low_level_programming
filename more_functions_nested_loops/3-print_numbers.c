@@ -5,7 +5,7 @@
  *print_numbers - print numbers
  *numbers - variable
  */
-void print_numbers(void);
+void print_numbers(void)
 {
 int numbers
 
