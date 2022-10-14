@@ -4,6 +4,7 @@
 
 /**
  *print_line - print line
+ *@n: variable
  */
 void print_line(int n)
 {
