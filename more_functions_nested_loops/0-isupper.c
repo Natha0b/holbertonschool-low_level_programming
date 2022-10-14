@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * main - check the code.
- *   *
- * Return: Always 0.
+ *_isupper - print the uppercase character
+ *@c: check caracter
+ *Return: zero and one
  */
 
 int _isupper(int c)
