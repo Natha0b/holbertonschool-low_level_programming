@@ -12,9 +12,8 @@ void more_numbers(void)
 int numbers;
 int n;
 {
-{
 for (numbers = '0' ; numbers < '9' ; numbers++)
-}
+
 {
 for (n = '0' ; n <= '14' ; n++)
 }
