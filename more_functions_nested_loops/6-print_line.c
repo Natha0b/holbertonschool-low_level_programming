@@ -14,5 +14,5 @@ for (line = 1; line <= n; line++)
 {
 _putchar('_');
 }
-_putchar('\n')
+_putchar('\n');
 }
