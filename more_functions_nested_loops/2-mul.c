@@ -13,7 +13,6 @@ int mul(int a, int b)
 
 mul = a * b;
 
-printf("mul of %d and %d is: %d", a, b, mul);
 
 return (mul);
 
