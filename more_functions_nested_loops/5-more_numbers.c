@@ -4,13 +4,14 @@
 
 /**
  *more_numbers - print numbers
- *numbers - variable
+ *@n: variables
+ *@numbers: variables
  */
 void more_numbers(void)
 
 int numbers;
 int n;
-
+{
 {
 for (numbers = '0' ; numbers < '9' ; numbers++)
 }
@@ -21,11 +22,10 @@ for (n = '0' ; n <= '14' ; n++)
 if (n > 9)
 _putchar("n / 10" + '0')
 }
+
 {
 _putchar("n % 10" + '0')
-
-
-_putchar('\n')
-
 }
 
+_putchar('\n')
+}
