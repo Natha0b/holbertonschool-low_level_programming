@@ -9,11 +9,11 @@
 int numbers;
 int n = 0;
 
-{
+
 while (n <= 9)
 
 {
-for (numbers = 'a' ; numbers <= 'z' ; numbers++)
+for (numbers = '0' ; numbers <= '9' ; numbers++)
 
 {
 _putchar(numbers + '0');
