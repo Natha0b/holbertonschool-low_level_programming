@@ -5,7 +5,7 @@
 /**
  *print_most_numbers - print numbers
  *numbers - variable
- *_putchar: print caracters
+ *_putchar: print numbers
  */
 void print_most_numbers(void)
 {
