@@ -3,7 +3,7 @@
 #include <unistd.h>
 
 /**
- *print_numbers - print numbers
+ *print_most_numbers - print numbers
  *numbers - variable
  *_putchar: print caracters
  */
