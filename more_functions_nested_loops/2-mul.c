@@ -2,16 +2,19 @@
 #include <stdio.h>
 
 /**
- *mul - print the multiplies character
- *@a: check caracter
- *@b: check caracter
- *Return: zero and one
+ *mul - print the multiplies
+ *@a: multiplies caracter
+ *@b: multiplies caracter
+ *Return: zero
  */
 
 int mul(int a, int b)
 {
 
-_putchar("%d\n", (a, *b));
+
+mul = a * b;
+
+printf("mul of %d and %d is: %d", a, b, mul);
 
 return (0);
 
