@@ -4,6 +4,7 @@
 /**
  *print_numbers - print numbers
  *numbers - variable
+ *_putchar: print caracters
  */
 void print_numbers(void)
 
