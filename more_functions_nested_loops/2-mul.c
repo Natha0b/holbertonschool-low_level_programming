@@ -11,7 +11,7 @@
 int mul(int a, int b)
 {
 
-printf("%d\n", mul(a, b));
+_putchar("%d\n", (a, *b));
 
 return (0);
 
