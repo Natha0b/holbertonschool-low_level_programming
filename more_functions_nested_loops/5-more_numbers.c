@@ -9,7 +9,7 @@
 int numbers;
 int n = 0;
 
-
+{
 while (n <= 9)
 
 {
@@ -21,4 +21,5 @@ _putchar(numbers + '0');
 
 _putchar('\n');
 n++;
+}
 }
