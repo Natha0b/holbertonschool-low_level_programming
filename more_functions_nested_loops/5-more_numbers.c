@@ -12,16 +12,18 @@ int numbers;
 int n;
 
 {
-for (numbers = '0' ; numbers < '10' ; numbers++)
+for (numbers = '0' ; numbers < '9' ; numbers++)
 }
 {
 for (n = '0' ; n <= '14' ; n++)
 }
 {
 if (n > 9)
-_putchar("n % 10" + '0')
 _putchar("n / 10" + '0')
 }
+{
+_putchar("n % 10" + '0')
+
 
 _putchar('\n')
 
