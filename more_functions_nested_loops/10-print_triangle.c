@@ -6,9 +6,9 @@
  */
 void print_triangle(int size)
 {
-    int colum;
-    int fil;
-    int x = size;
+int colum;
+int fil;
+int x = size;
 
 if (size <= 0)
 {
