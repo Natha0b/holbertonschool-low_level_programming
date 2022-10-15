@@ -4,7 +4,7 @@
 
 /**
  *print_square - print square
- *@n: variable
+ *@size: variable
  */
 void print_square(int size)
 {
