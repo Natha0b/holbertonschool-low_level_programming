@@ -4,12 +4,12 @@
 
 /**
  *print_square - print square
- *@size: variable
+ *@size: of the square
  */
 void print_square(int size)
 {
-int p;
-int s;
+int p = 0;
+int s = 0;
 
 if (size > 0)
 {
