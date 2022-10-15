@@ -17,7 +17,7 @@ while (p < size)
 {
 while (s < size)
 {
-_putchar(' ');
+_putchar(35);
 s++;
 }
 _putchar('\n');
