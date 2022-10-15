@@ -23,6 +23,7 @@ d++;
 _putchar('\\');
 _putchar('\n');
 l++;
+d = 0;
 }
 }
 else
