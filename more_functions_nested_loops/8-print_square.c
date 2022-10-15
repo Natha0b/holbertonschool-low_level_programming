@@ -20,12 +20,12 @@ while (s < size)
 _putchar(' ');
 s++;
 }
-_putchar('\n);
+_putchar('\n');
 p++;
 s = 0;
 }
 }
 else 
-_putchar('\n')
+_putchar('\n');
 }
 
