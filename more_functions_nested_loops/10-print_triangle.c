@@ -19,7 +19,7 @@ else
 for (fil = 0; fil < size; fil++)
 {
 x--;
-for (colum = 0; c < size; colum++)
+for (colum = 0; colum < size; colum++)
 {
 if (colum < x)
 {
