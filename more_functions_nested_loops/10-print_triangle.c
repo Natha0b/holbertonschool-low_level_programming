@@ -2,7 +2,7 @@
 
 /**
  *print_triangle - print triangle
- *@size - size is size
+ *@size: size is size the triangle
  */
 void print_triangle(int size)
 {
