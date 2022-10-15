@@ -3,7 +3,7 @@
 #include <unistd.h>
 
 /**
- *print_line - print line
+ *print_diagonal - print diagonal line
  *@n: variable
  */
 void print_diagonal(int n)
