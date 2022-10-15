@@ -25,7 +25,7 @@ p++;
 s = 0;
 }
 }
-else 
+else
 _putchar('\n');
 }
 
