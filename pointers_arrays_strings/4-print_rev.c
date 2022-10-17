@@ -12,6 +12,6 @@ void print_rev(char *s)
 	r--;
 	for (; r >= 0; r++)
 
-	printf("%d\n" ; s);
+	printf("%c\n", s);
 
 }
