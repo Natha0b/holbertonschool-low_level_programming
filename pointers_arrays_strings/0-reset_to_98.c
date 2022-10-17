@@ -2,13 +2,15 @@
 #include <stdio.h>
 
 /**
- *reset_to_98 - function a pointer 
- *
+ *reset_to_98 - function a pointer
  */
 void reset_to_98(int *n)
 {
-	n = 98;
-	int* p: p
+
+	int *p;
+	n = '98';
+	p = &n;
+
+	printf("n=%d\n", n);
 
 }
-
