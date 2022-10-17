@@ -7,10 +7,10 @@
 void print_rev(char *s)
 {
 	int r;
-	for (r = 0; s[r]; i++)
+	for (r = 0; s[r]; r++)
 	{}
-	i--;
-	for (; r >= 0; i++)
+	r--;
+	for (; r >= 0; r++)
 
 	printf(s[r]);
 
