@@ -6,5 +6,14 @@
  */
 void print_rev(char *s)
 {
-	printf("%s\n", s);
+	int r;
+	for (r = 0; s[r]; i++)
+	{}
+	i--;
+	for (; r >= 0; i++)
+
+	printf(s[r]);
+
+
+	printf('\n');
 }
