@@ -3,14 +3,10 @@
 
 /**
  *reset_to_98 - function a pointer
+ *@n: variable punter
  */
 void reset_to_98(int *n)
 {
-
-	int *p;
-	n = '98';
-	p = &n;
-
-	printf("n=%d\n", n);
+	*n = 98;
 
 }
