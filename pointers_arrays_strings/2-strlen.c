@@ -8,9 +8,8 @@
 
 int _strlen(char *s)
 {
-	char *s;
-	char cadena;
-	s = cadena;
-	s = &cadena[0];
+	int c;
+	p = &s[c];
+
 	return (0);
 }
