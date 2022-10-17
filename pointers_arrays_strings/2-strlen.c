@@ -6,7 +6,7 @@
  *Return: zero
  */
 
-int _strlen(char *s);
+int _strlen(char *s)
 {
 	char *s;
 	char cadena;
