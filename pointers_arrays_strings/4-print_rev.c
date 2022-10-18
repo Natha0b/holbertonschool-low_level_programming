@@ -7,10 +7,7 @@
 void print_rev(char *s)
 {
 	int r;
-	for (r = 0; s[r]; r++)
-	{}
-	r--;
-	for (; r >= 0; r++)
+	for (r = 0; s[r]; r--)
 
 	printf("%s\n", s);
 
