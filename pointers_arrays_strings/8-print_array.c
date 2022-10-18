@@ -9,7 +9,7 @@ void print_array(int *a, int n)
 {
 	
 
-	for (n = 'a' <= '\0' ; n++)
+	for (n = '*a' <= '\0' ; n++;)
 
 	{
 		_putchar(n);
