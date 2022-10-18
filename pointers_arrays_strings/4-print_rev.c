@@ -7,8 +7,15 @@
 void print_rev(char *s)
 {
 	int r;
-	for (r = 0; s[r]; r--)
+	int c = 0;
 
-	printf("%s\n", s);
+	while(s[c] != '\0');
+	{
+		c++;
+	}
+	for (r = c - 1; r = 0; r--)
+	{
+		printf("%s\n" s)
+
 
 }
