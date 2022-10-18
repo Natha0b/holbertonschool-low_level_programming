@@ -3,6 +3,7 @@
 /**
  *print_rev - function a string
  *@s: varible punter
+ *_putchar - print the character
  */
 void print_rev(char *s)
 {
@@ -13,7 +14,7 @@ void print_rev(char *s)
 	{
 		c++;
 	}
-	for (r = c - 1; r = 0; r--)
+	for (r = c - 1; r >= 0; r--)
 	{
 		_putchar(s[r]);
 	}
