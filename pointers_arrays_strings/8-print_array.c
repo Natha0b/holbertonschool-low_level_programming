@@ -7,20 +7,14 @@
  */
 void print_array(int *a, int n)
 {
-	
+	int c;
 
-	for (n = '*a' <= '\0' ; n++;)
-
+	for (c = 0; c < n; c++)
 	{
-		_putchar(n);
-
-        if (n != '\0')
-
-	{
-		_putchar(',');
-		_putchar(' ');
+	if (c < n - 1)
+		printf("%s, ", a[c]);
+	else
+		printf("%s\n", a[c]);
 	}
-	}
-		_putchar('\n');
-}
-	
+	if (n <= 4)
+		printf("\n");
