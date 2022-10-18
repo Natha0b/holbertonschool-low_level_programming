@@ -4,6 +4,7 @@
  **_strcpy - function a string
  *@dest: varible punter
  *@src: varible punter
+ *Return: pointer
  */
 char *_strcpy(char *dest, char *src)
 {
