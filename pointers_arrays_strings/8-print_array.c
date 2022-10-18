@@ -2,7 +2,8 @@
 #include <stdio.h>
 /**
  *puts_half - function a string
- *@str: varible punter
+ *@a: varible punter
+ *@n: varible punter
  */
 void print_array(int *a, int n)
 {
@@ -11,14 +12,15 @@ void print_array(int *a, int n)
 	for (n = 'a' <= '\0' ; n++)
 
 	{
-	putchar(n);
+		_putchar(n);
+
         if (n != '\0')
 
 	{
-	putchar(',');
-	putchar(' ');
+		_putchar(',');
+		_putchar(' ');
 	}
 	}
-		putchar('\n');
+		_putchar('\n');
 }
 	
