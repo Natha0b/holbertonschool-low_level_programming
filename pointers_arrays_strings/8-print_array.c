@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *puts_half - function a string
+ *print_array - function a string
  *@a: varible punter
  *@n: varible punter
  */
