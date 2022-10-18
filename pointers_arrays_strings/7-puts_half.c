@@ -15,10 +15,10 @@ void puts_half(char *str)
 		c++;
 
 	if (c % 2 == 0)
-	
+
 	n = c / 2;
 
-	else 
+	else
 	n = ((c - 1) / 2) + 1;
 
 
