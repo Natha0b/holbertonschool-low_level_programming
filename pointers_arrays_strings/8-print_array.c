@@ -7,14 +7,15 @@
  */
 void print_array(int *a, int n)
 {
-	char c;
+	int c;
 
 	for (c = 0; c < n; c++)
 	{
 	if (c < n - 1)
-		printf("%s, ", a[c]);
+		printf("%d, ", a[c]);
 	else
-		printf("%s\n", a[c]);
+		printf("%d\n", a[c]);
 	}
 	if (n <= 4)
 		printf("\n");
+}
