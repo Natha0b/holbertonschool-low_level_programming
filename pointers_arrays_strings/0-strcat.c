@@ -4,6 +4,7 @@
  **_strcat - function a string
  *@dest: varible punter
  *@src: varible punter
+ *@c: variable punter 
  *Return: pointer
  */
 char *_strcat(char *dest, char *src)
@@ -22,6 +23,6 @@ char *_strcat(char *dest, char *src)
 	}
 
 	dest[c] = '\0';
-	return (*p)
+	return (*p);
 
 }
