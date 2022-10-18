@@ -15,12 +15,12 @@ void puts_half(char *str)
 		c++;
 	}
 
-	j = c - 1;
+	j = c;
 
 	for (r = 0; r < c / 2; r++)
 	{
 		j--;
-		_putchar(str[r]);
+		_putchar(str[j]);
 	}
 	_putchar('\n');
 }
