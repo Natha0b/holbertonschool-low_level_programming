@@ -16,13 +16,11 @@ void puts_half(char *str)
 	}
 
 	if (c % 2 == 0)
-	{
+	
 	n = c / 2;
-	}
+
 	else 
-	{
 	n = ((c - 1) /2) + 1;
-	}
 
 
 	for (j = n; j < c; c++)
