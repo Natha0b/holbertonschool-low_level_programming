@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *print_array - function a string
- *@a: varible punter
- *@n: varible punter
+ **_strcpy - function a string
+ *@dest: varible punter
+ *@src: varible punter
  */
 char *_strcpy(char *dest, char *src)
 {
