@@ -15,5 +15,5 @@ void rev_string(char *s)
 	 c++;
 	}
 	for (r = c - 1; r >= 0; r--)
-}	
 
+}
