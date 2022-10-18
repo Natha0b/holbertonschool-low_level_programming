@@ -6,8 +6,8 @@
  */
 void puts_half(char *str)
 {
-	int r;
 	int c = 0;
+	int n;
 	int j;
 
 	while (str[c] != '\0')
@@ -15,11 +15,15 @@ void puts_half(char *str)
 		c++;
 	}
 
-	j = c;
+	if (c % 2 == 0);
+	n = c / 2;
+	
+	else 
+	n = ((c - 1) /2) + 1
 
-	for (r = 0; r < c / 2; r++)
+
+	for (j = n; j < c; c++)
 	{
-		j++;
 
 		_putchar(str[j]);
 	}
