@@ -16,9 +16,9 @@ while (s[c] != '\0')
 c++;
 }
 
-j = c -1;
+j = c - 1;
 
-for (r = 0; r < c /2; r++)
+for (r = 0; r < c / 2; r++)
 {
 l = s[r];
 s[r] = s[j];
