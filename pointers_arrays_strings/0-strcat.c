@@ -4,7 +4,6 @@
  **_strcat - function a string
  *@dest: varible punter
  *@src: varible punter
- *@c: variable punter 
  *Return: pointer
  */
 char *_strcat(char *dest, char *src)
