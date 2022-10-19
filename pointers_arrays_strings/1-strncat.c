@@ -11,24 +11,24 @@ char *_strncat(char *dest, char *src, int n)
 {
 
         int c;
-	int i;
+	int i = 0;
 
 
-	for (c = 0; dest[c]; != '\0')
+	for (c = 0; dest[c] != '\0'; c++)
 
-	{
-
-	}
-        for (n = 0; src[i]; != '\0')
+        for (n = 0; src[i] != '\0'; i++)
 	{
 	if (i < n)
 	{
 		dest[c + i] = src[i];
+
 		i++;
 	}
+
 	dest[c + i] = '\0';
+	
 	}
 
         _putchar('\n');
-	return (p);
+	return (dest);
 }
