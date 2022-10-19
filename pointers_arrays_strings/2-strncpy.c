@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *_strncat - function a string
+ **_strncpy - function a string
  *@dest: varible punter
  *@src: varible punter
  *@n: variable punter
@@ -17,5 +17,5 @@ char *_strncpy(char *dest, char *src, int n)
 	for ( ; i < n; i++)
 	dest[i] = '\0';
 
-	return dest;
+	return (dest;)
 }
