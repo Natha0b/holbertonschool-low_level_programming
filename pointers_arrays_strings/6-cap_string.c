@@ -2,10 +2,10 @@
 #include <stdio.h>
 /**
  **cap_string - function a string
- *@c: variable pointer
+ *@s: variable pointer
  *Return: variable pointer
  */
-char cap_string(chars)
+char cap_string(chars *s)
 {
 	int i, j;
 	char e1[] = " \t\n,;.!?\"(){}";
