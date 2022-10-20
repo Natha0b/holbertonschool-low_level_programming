@@ -2,21 +2,18 @@
 #include <stdio.h>
 /**
  **string_toupper - function a string
- *@ *: variable punter
- *Return: zero
+ *@*c: variable pointer
+ *Return: variable pointer
  */
-char *string_toupper(char *)
+char *string_toupper(char *c)
 {
 	int i;
-	int uppercase;
 
-	for (i = 0; *[i] != '\0'; i++)
+	for (i = 0; *c != '\0'; i++)
 	{
-		i++;
+		if (c[i] >= 'A' && c[i] <= 'Z')
+		       c[i] -= 32;
 	}
 
-	for (uppercase = 'A' ; uppercase <= 'Z' ; uppercase++)
-	{}
-	return (0);
+	return (c);
 }
-	
