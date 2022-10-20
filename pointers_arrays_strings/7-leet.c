@@ -15,7 +15,7 @@ char *leet(char *s)
 	while (s[i] != '\0')
 	{ 
 	        j = 0;
-		while (letters[j] < 11) 
+		while (j < 11) 
 		{
 			if (letters[j] == s[i])
 			{
