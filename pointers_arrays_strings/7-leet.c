@@ -7,8 +7,8 @@
  */
 char *leet(char *s)
 {
-	char letters[] = {'a','A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
-	char replace[] = {'4', '4', '3', '3', '0', '0', '7', '7', '1', '1'};
+	char letters[] = {'A','a', 'E', 'e', 'L', 'l', 'O', 'o', 'T', 't'};
+	char replace[] = {'4', '4', '3', '3', '1', '1', '0', '0', '7', '7'};
 	int i = 0;
 	int j;
 	
@@ -17,7 +17,7 @@ char *leet(char *s)
 	        j = 0;
 		while (letters[j] != '\0') 
 		{
-			if (s[i] == letters[j])
+			if (letters[j] == s[i])
 			{
 				s[i] = replace[j];
 		
