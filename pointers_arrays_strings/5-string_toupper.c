@@ -10,7 +10,7 @@ char *string_toupper(char *c)
 	int i;
 	int M = 32;
 
-	for (c[i])
+	while (c[i])
 	{
 		i++;
 
