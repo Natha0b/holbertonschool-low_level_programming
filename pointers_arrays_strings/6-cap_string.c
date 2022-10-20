@@ -5,7 +5,7 @@
  *@s: variable pointer
  *Return: variable pointer
  */
-char cap_string(char *s)
+char *cap_string(char *s)
 {
 	int i, j;
 	char e1[] = " \t\n,;.!?\"(){}";
