@@ -5,26 +5,30 @@
  *@c: variable pointer
  *Return: variable pointer
  */
-char *cap_string(char *c)
+char cap_string(chars)
 {
-	int i = 0;
-	int M = 32;
-	int len
+	int i, j;
+	char e1[] = " \t\n,;.!?"(){}";
+	
+	i = 0;
 
-	for(i=0; c[i]!='\0'; i++)
+        if (s[0] >= 97 && s[0] <= 122)
+		s[0] -= 32;
+	
+	while (s[i] != '\0')
 	{
-		if(i==0)
-		{
-			if((c[i]>='a' && c[i]<='z'))
-				c[i]=c[i]-M;
-	}
-	if(c[i]==' ')
+		if (s[i + 1] >= 97 && s[i + 1] <= 122)
 	{
+	
+	for (j = 0; e1[j] != '\0'; j++)
+	{
+		if (e1[j] == s[i])
+	{																					        s[i + 1] -= 32;
+		break;
+																						}
+        }
+        }
 		i++;
-		if(c[i]>='a' && c[i]<='z')
-			c[i]=c[i]-M;
-
 	}
-
-	return (c);
+	return (s);
 }
