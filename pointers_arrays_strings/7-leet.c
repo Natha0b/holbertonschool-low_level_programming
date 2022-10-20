@@ -11,16 +11,16 @@ char *leet(char *s)
 	char replace[] = {'4', '4', '3', '3', '1', '1', '0', '0', '7', '7', '\0'};
 	int i = 0;
 	int j;
-	
+
 	while (s[i] != '\0')
-	{ 
-	        j = 0;
-		while (j < 11) 
+	{
+		j = 0;
+		while (j < 11)
 		{
 			if (letters[j] == s[i])
 			{
 				s[i] = replace[j];
-		
+
 			}
 			j++;
 		}
@@ -29,5 +29,3 @@ char *leet(char *s)
 	}
 	return (s);
 }
-
-
