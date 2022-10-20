@@ -14,7 +14,8 @@ char *string_toupper(char *c)
 	{
 
 	if (c[i] >= 'a' && c[i] <= 'z')
-        c[i] -= M;
+		
+		c[i] -= M;
 	i++;
 	}
 
