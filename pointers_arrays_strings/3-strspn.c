@@ -11,10 +11,10 @@ unsigned int _strspn(char *s, char *accept)
 	int i;
 	int j;
 
-	unsigned int a = 1;	
+	unsigned int a = 1;
 	unsigned int c = 0;
 
-	for(i = 0; a != 0 && s[i]; i++)
+	for (i = 0; a != 0 && s[i]; i++)
 	{
 		a = 0;
 	for (j = 0; accept[j]; j++)
