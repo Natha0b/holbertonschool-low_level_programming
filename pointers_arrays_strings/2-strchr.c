@@ -1,22 +1,26 @@
 #include "main.h"
 #include <stdio.h>
 /**
- **_memset - function a string
+ **_strchr - function a string
  *@s: variable pointer
- *@b: variable pointer
- *@n: variable pointer
+ *@c: variable pointer
  *Return: variable pointer
  */
 char *_strchr(char *s, char c)
 {
+	int i; 
 
-	while (s[c] != '\0')
-
-
-	if (s != NULL)
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		return ('\0');
+		if (s[i] == c)
+		{
+			return (s + i);
+		}
+	}
+	if (s[i] == c)
+	{
+		return (s + i);
 	}
 
-	return (s);
+	return (0);
 }
