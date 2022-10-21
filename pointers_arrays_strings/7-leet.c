@@ -1,13 +1,13 @@
 #include "main.h"
 #include <stdio.h>
 /**
- **string_toupper - function a string
- *@c: variable pointer
+ **leet - function a string
+ *@s: variable pointer
  *Return: variable pointer
  */
 char *leet(char *s)
 {
-	char letters[] = {'A','a', 'E', 'e', 'L', 'l', 'O', 'o', 'T', 't', '\0'};
+	char letters[] = {'A', 'a', 'E', 'e', 'L', 'l', 'O', 'o', 'T', 't', '\0'};
 	char replace[] = {'4', '4', '3', '3', '1', '1', '0', '0', '7', '7', '\0'};
 	int i = 0;
 	int j;
