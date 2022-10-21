@@ -1,8 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *print_chessboard - function a string
+ *print_diagsums - function a string
  *@a: variable pointer
+ *@size: variable pointer
  *Return: variable pointer
  */
 void print_diagsums(int *a, int size)
@@ -15,12 +16,12 @@ void print_diagsums(int *a, int size)
 		s += a[i * (size + 1)];
 	printf("%d, ", s);
 
-	i = size -1;
+	i = size - 1;
 
 	while (i < (size * size) - (size - 1))
-	{ 
+	{
 		b += a[i];
-		i += (size -1);
+		i += (size - 1);
 
 	}
 	printf("%d\n", b);
