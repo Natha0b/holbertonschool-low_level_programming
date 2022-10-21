@@ -18,16 +18,16 @@ char *cap_string(char *s)
 	{
 		if (s[i + 1] >= 97 && s[i + 1] <= 122)
 	{
-	
+
 	for (j = 0; e1[j] != '\0'; j++)
 	{
 		if (e1[j] == s[i])
 	{																					        s[i + 1] -= 32;
 		break;
 																						}
-        }
-        }
-		i++;
+	}
+	}
+	i++;
 	}
 	return (s);
 }
