@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *_strspn - function a string
+ **_strpbrk - function a string
  *@s: variable pointer
  *@accept: variable pointer
  *Return: variable pointer
