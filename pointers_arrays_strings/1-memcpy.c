@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- **_memset - function a string
- *@s: variable pointer
- *@b: variable pointer
+ **_memcpy - function a string
+ *@dest: variable pointer
+ *@src: variable pointer
  *@n: variable pointer
  *Return: variable pointer
  */
