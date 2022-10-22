@@ -14,6 +14,9 @@ char *_strstr(char *haystack, char *needle)
 	int c;
 
 	for (j = 0; needle[j] != '\0')
+	{
+
+	}
 
 		c = j;
 
