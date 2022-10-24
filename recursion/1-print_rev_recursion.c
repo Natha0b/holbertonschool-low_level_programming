@@ -9,7 +9,7 @@ void _print_rev_recursion(char *s)
 	int i;
 	int c = 0;
 
-	if (s[c] != '\0')
+	if (c = 0; c != '\0')
 	{
 		c++;
 	}
