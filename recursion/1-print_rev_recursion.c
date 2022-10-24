@@ -13,6 +13,8 @@ void _print_rev_recursion(char *s)
 	{
 		c++;
 	}
+	
+	i = c;
 	if (i == c - 1)
 	{
 		i--;
