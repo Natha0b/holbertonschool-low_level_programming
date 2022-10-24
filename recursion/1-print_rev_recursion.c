@@ -15,5 +15,4 @@ void _print_rev_recursion(char *s)
 		_putchar(s[c]);
 
 	}
-	_putchar('\n');
 }
