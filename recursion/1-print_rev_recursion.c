@@ -13,8 +13,9 @@ void _print_rev_recursion(char *s)
 	{
 		c++;
 	}
-	else if (i = c - 1; i >= 0; i--)
+	if (i = c - 1)
 	{
+		i--;
 		_putchar(s[i]);
 	}
 	_putchar('\n');
