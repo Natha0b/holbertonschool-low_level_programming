@@ -6,19 +6,13 @@
  */
 void _print_rev_recursion(char *s)
 {
-	int i;
 	int c = 0;
 
 	if (s[c] != '\0')
 	{
-		c++;
-	}
-	
-	i = c - 1;
-	if (i == c)
-	{
-		i--;
-		_putchar(s[i]);
+		_putchar(s + 1);
+
+		_putchar(s[c]);
 
 	}
 	_putchar('\n');
