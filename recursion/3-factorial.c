@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *_strlen_recursion - function a recursion
- *@s: varible recursion
+ *factorial - function a recursion
+ *@n: varible recursion
  *Return: variable recursion
  */
 int factorial(int n)
