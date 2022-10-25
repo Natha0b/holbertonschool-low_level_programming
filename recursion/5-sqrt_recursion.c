@@ -6,10 +6,10 @@
  *@s: variable recursion
  *Return: variable recursion
  */
-int _sqrt_(int n, int s)
+int _sqrt_recursion(int n, int s)
 {
 	if ( s * s < n)
-		return (_squrt_(n, s + 1);
+		return (_sqrt_recursion(n, s + 1);
 	if (s * s > n)
 	        return (-1);
 	return (s);
