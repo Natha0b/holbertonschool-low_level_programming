@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *sqrt - function a recursion
+ *_sqrt - function a recursion
  *@n: variable recursion
  *@s: variable recursion
  *Return: variable recursion
@@ -9,7 +9,7 @@
 int _sqrt(int n, int s)
 {
 	if ( s * s < n)
-		return (_sqrt(n, s + 1);
+		return (_sqrt(n, s + 1));
 	if (s * s > n)
 	        return (-1);
 	return (s);
