@@ -14,11 +14,12 @@ int main(int argc, char *argv[])
 	if (argc != 3)
 	{
 		printf("Error\n");
+		return (1);
 	}
 	else
 	{
-		dig1 = argv[1];
-		dig2 = argv[2];
+		dig1 = atoi(argv[1]);
+		dig2 = atoi(argv[2]);
 
 		printf("%d\n", dig1 * dig2);
 	}
