@@ -18,10 +18,6 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-
-		dig1 = atoi(argv[1]);
-		dig2 = atoi(argv[2]);
-
 		printf("%d\n", dig1 * dig2);
 
 	return (0);
