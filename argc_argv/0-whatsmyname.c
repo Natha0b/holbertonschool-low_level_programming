@@ -3,7 +3,7 @@
  *main- function argc argv
  *@argc: varible argc, argv
  *@argv: variable argc, argv
- *Return: zero 
+ *Return: zero
  */
 int main(int argc, char *argv[])
 {
