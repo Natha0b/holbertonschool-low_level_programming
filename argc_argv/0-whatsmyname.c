@@ -5,7 +5,7 @@
  */
 void main()
 {
-	printf("laura Nathaly Ortiz Barona")
-		printf("\n")
+	printf("laura Nathaly Ortiz Barona");
+		printf("\n");
 }
 
