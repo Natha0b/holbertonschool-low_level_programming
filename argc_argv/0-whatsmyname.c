@@ -3,9 +3,9 @@
  *_puts_recursion - function a recursion
  *@s: varible recursion
  */
-void main()
+int main(int argc, char *argv[]);
 {
-	printf("laura Nathaly Ortiz Barona");
-		printf("\n");
+	printf("%s\n", argv[0]);
+		return (0);
 }
 
