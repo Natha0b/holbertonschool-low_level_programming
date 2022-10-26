@@ -12,10 +12,10 @@ int main(int argc, char *argv[])
 	int dig2 = 0;
 
 	if (argc != 3)
-	{
+
 		printf("Error\n");
 		return (1);
-	}
+
 	else
 	{
 		dig1 = atoi(argv[1]);
