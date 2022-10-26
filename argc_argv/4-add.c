@@ -8,7 +8,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int s = 0;
+	int suma = 0;
 	int n;
 
 	if (argc == 1)
@@ -26,9 +26,9 @@ int main(int argc, char *argv[])
 	{
 
 		s += atoi(argv[n]);
-		printf("%d", atoi(argv[n]);
+		printf("%d", atoi(argv[n]));
 	}
-	
-	printf("%d\n", s);
+
+	printf("%d\n", suma);	
 	return (0);
 }
