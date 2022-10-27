@@ -26,21 +26,20 @@ int main(int argc, char *argv[])
 		return (0);
 	}
 
-	for(n = 0; coin[n] != '\0'; n++)
+	for (n = 0; coin[n] != '\0'; n++)
 	{
 		if (coin[n] > result)
 		{
 			continue;
 		}
-
-
-	while (coin[n] <= result)
-	{
+		
+		while (coin[n] <= result)
+		{
 		result = result - coin[n];
 		cont++;
+		}
 	}
-	}
-	
+
 	printf("%d\n", cont);
 	return (0);
 }
