@@ -30,6 +30,7 @@ int main(int argc, char *argv[])
 			if (isdigit(argv[n][j]) == 0)
 			{
 				printf("Error\n");
+				return (1);
 			}
 		}
 
