@@ -32,11 +32,11 @@ int main(int argc, char *argv[])
 		{
 			continue;
 		}
-		
+
 		while (coin[n] <= result)
 		{
-		result = result - coin[n];
-		cont++;
+			result = result - coin[n];
+			cont++;
 		}
 	}
 
