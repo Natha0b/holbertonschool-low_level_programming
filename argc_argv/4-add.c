@@ -10,6 +10,7 @@ int main(int argc, char *argv[])
 {
 	int suma = 0;
 	int n;
+	int j;
 
 	if (argc == 1)
 	{
@@ -24,6 +25,14 @@ int main(int argc, char *argv[])
 
 	for (n = 1; n < argc; n++)
 	{
+		for (j = 1; n < argv; j++)
+		{
+			if (isdigit(j) == 0)
+			{
+				printf("Error\n");
+			}
+		}
+
 
 		suma += atoi(argv[n]);
 	}
