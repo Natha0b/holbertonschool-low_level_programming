@@ -38,6 +38,6 @@ int main(int argc, char *argv[])
 		suma += atoi(argv[n]);
 	}
 
-	printf("%d\n", suma);	
+	printf("%d\n", suma);
 	return (0);
 }
