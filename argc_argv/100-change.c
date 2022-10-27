@@ -9,7 +9,6 @@
 int main(int argc, char *argv[])
 {
 	int coin[] = {25, 10, 5, 2, 1};
-	int cent = 0;
 	int n = 0;
 	int cont = 0;
 	int result = 0;
@@ -23,11 +22,11 @@ int main(int argc, char *argv[])
 
 	if (result <= 0)
 	{
-		printf("0\n")
+		printf("0\n");
 		return (0);
 	}
 
-	for(n = 0; coin[n] != "\0"; n++)
+	for(n = 0; coin[n] != '\0'; n++)
 	{
 		if (coin[n] > result)
 		{
