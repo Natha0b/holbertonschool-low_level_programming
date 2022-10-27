@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 
 	for (n = 1; n < argc; n++)
 	{
-		for (j = 1; n < argv; j++)
+		for (j = 1; n < argc; j++)
 		{
 			if (isdigit(j) == 0)
 			{
