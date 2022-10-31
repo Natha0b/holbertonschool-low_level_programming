@@ -6,11 +6,11 @@
  *@str: variable malloc
  *Return: zero
  */
-char *_strdup(char *str);
+char *_strdup(char *str)
 {
     int i;
 
-    void free(void *str);
+    str = malloc(size * sizeof(char));
 
     if (str == NULL)
     {
