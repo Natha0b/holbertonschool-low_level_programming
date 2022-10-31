@@ -29,7 +29,7 @@ char *_strdup(char *str)
             a[s] = str[s];
         }
     
-    if (str == NULL)
+    if (a == NULL)
     {
         return (NULL);
     }
