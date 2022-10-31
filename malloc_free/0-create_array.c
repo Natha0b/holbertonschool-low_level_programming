@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdli.h>
 #include "main.h"
 /**
  *main- function argc argv
