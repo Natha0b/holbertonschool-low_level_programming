@@ -11,13 +11,13 @@ char *_strdup(char *str)
     char *a;
     int i;
     int s;
-
+    
     if (str == NULL)
     {
         return (NULL);
     }
-
-    for (i = 0; str[i] != '\0'; i++)
+    
+    for(i = 0; str[i] != '\0'; i++)
     {
     }
 
@@ -27,7 +27,7 @@ char *_strdup(char *str)
     {
         return (NULL);
     }
-    for (s = 0; str[s] != '\0'; s++)
+    for(s = 0; str[s] != '\0'; s++)
     {
         a[s] = str[s];
     }
