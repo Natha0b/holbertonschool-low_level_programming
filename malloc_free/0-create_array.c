@@ -3,8 +3,8 @@
 #include <stdlib.h>
 /**
  *main- function argc argv
- *@argc: varible argc, argv
- *@argv: variable argc, argv
+ *@size: varible malloc
+ *@c: variable malloc
  *Return: zero
  */
 char *create_array(unsigned int size, char c)
@@ -22,6 +22,10 @@ char *create_array(unsigned int size, char c)
 	}
 
 	if (size == 0)
+	{
+		return ('\0');
+	}
+	if (a == '\0')
 	{
 		return ('\0');
 	}
