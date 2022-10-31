@@ -2,7 +2,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- *main- function argc argv
+ **create_array- function malloc and free
  *@size: varible malloc
  *@c: variable malloc
  *Return: zero
@@ -25,10 +25,10 @@ char *create_array(unsigned int size, char c)
 	{
 		return ('\0');
 	}
-	if (a == NULL)
+	if (*a == NULL)
 	{
 		return ('\0');
 	}
 
-	return (a);	
+	return (a);
 }
