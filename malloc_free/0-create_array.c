@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include <stdlib.h>
 /**
  *main- function argc argv
  *@argc: varible argc, argv
@@ -9,6 +10,7 @@
 char *create_array(unsigned int size, char c)
 {
 	int i;
+	char a[];
 
 	for (i = 0; i < '\0'; i++)
 	{
