@@ -9,8 +9,21 @@
  */
 char *create_array(unsigned int size, char c)
 {
-	for (c = 0; c < 4; c++)
-		 A[c] = size;
+	int i;
 
-return (0);	
+	for (i = 0; i < '\0'; i++)
+	{
+
+	for (c = 0; c < '\0'; c++)
+	{
+		 a[i] = c;
+	}
+	c = malloc(size * size(char));
+
+	if (size == 0)
+	{
+		return ('\0');
+	}
+	}
+	return (c);	
 }
