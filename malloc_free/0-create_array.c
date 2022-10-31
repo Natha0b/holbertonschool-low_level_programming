@@ -25,6 +25,7 @@ char *create_array(unsigned int size, char c)
 		a[i] = c;
 
 	}
+		
 
 	if (size == 0)
 	{
