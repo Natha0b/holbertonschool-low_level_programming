@@ -9,8 +9,8 @@
  */
 char *create_array(unsigned int size, char c)
 {
-	int i;
-	char a[];
+	unsigned int i;
+	char *a; 
 
 	for (i = 0; i < '\0'; i++)
 	{
