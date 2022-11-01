@@ -16,6 +16,15 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	unsigned int i;
 	unsigned int j;
 
+	if (s1 == NULL)
+	{
+		s1 = "";
+	}
+	if (s2 == NULL)
+	{
+		s2 = "";
+	}
+
 	for (c = 0; s1[c] != '\0'; c++)
 	{
 	}
