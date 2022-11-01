@@ -2,15 +2,15 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- **create_array- function malloc and free
+ **malloc_checked- function malloc and free
  *@b: variable malloc
  *Return: zero
  */
 void *malloc_checked(unsigned int b)
 {
-	int *a;
+	void *a;
 
-	a = malloc((b) * sizeof(int *));
+	a = malloc(b);
 
 	if (a == NULL)
 		exit(98);
