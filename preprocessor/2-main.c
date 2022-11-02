@@ -1,7 +1,11 @@
 #include <stdio.h>
+/**
+ *main- function preprocessor
+ *Return: zero
+ */
 
-int main ()
+int main (void)
 {
-	printf("%s");
+	printf("%s\n", __FILE__);
     return 0;
 }
