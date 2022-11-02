@@ -13,24 +13,21 @@ int *array_range(int min, int max)
 	int c;
 
 
-	for (c = 0; c <= max - min; c++)
-
 	if (min > max)
 	{
 		return (NULL);
 	}
 
-	a = malloc((sizeof(*a) * c));
-
+	a = malloc((max - min + 1) * sizeof(int));
 
 	if (a == NULL)
 	{
 		return (NULL);
 	}
 
-	for (c = 0; c <= max - min; c++)
+	for (c = 0; min <= max; c++, min++)
 	{
-		a[c] = c + min;
+		a[c] = min;
 	}
 
 	return (a);
