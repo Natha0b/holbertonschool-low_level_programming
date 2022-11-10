@@ -3,8 +3,8 @@
 #include "variadic_functions.h"
 /**
  * sum_them_all- sum  of all its parameters
- * @const: variable const
  * @n: variable sum
+ * Return: value sum
  */
 int sum_them_all(const unsigned int n, ...)
 {
