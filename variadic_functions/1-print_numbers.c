@@ -5,7 +5,6 @@
  * print_numbers- sum  of all its parameters
  * @separator: variable char
  * @n: variable
- * Return: value sum
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
