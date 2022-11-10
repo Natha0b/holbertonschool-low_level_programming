@@ -1,7 +1,7 @@
 #ifndef CAL_H
 #define CAL_H
 /**
- *struct- struct operation
+ *struct op- struct operation
  *@op: variable operador
  *@f: variable function
  */

@@ -25,8 +25,8 @@ int main(int argc, char *argv[])
 
 	if (op_func != NULL)
 		printf("%i\n", op_func(number1, number2));
-	
-	else 
+
+	else
 	{
 		printf("Error\n");
 		exit(99);
