@@ -10,7 +10,8 @@ void print_all(const char *const format, ...)
 {
 	va_list ptr;
 	unsigned int count;
-	char *p, c;
+	char *p;
+	char c;
 	int i;
 	float f;
 
@@ -21,7 +22,7 @@ void print_all(const char *const format, ...)
 		switch (format[count++])
 		{
 		case 'c':
-			c = (char) va_arg(ptr, int);
+			c = (char)va_arg(ptr, int);
 			printf("%c", c);
 			break;
 		case 'i':
@@ -29,14 +30,15 @@ void print_all(const char *const format, ...)
 			printf("%d", i);
 			break;
 		case 'f':
-			f = (float) va_arg(ptr, double);
+			f = (float)va_arg(ptr, double);
 			printf("%f", f);
 			break;
 		case 'p':
 			p = va_arg(ptr, char *);
 			if (p == NULL)
-				p = "(nil)";
-			printf("%s", p);
+				printf("(nil)");
+			else
+				printf("%s", p);
 			break;
 		default:
 			continue;
