@@ -2,8 +2,9 @@
 #include "lists.h"
 
 /**
- *print_list- function of print list
- *@list_t: variable
+ *print_list- function
+ *@h: variable
+ *Return: variable counter
  */
 size_t print_list(const list_t *h)
 {
