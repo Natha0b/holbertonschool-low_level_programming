@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- **insert_dnodeint_at_indext- function
+ **insert_dnodeint_at_index- function double list
  *@h: variable
  *@idx: variable
  *@n: variable
@@ -15,20 +15,15 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 
 	if (!h || !*h)
 		return (NULL);
-
 	if (idx != 0)
 		return (NULL);
-
 	if (idx == 0)
 		return (add_dnodeint(h, n));
 
 	new_node = malloc(sizeof(dlistint_t));
-
 	if (new_node == NULL)
 		return (NULL);
-
 	new_node->n = n;
-
 	while (aux->next)
 	{
 		if (counter == idx)
@@ -44,15 +39,14 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 		counter++;
 		aux = aux->prev;
 	}
-	if (counter + 1 == idx)
+	if (counter < idx - 1)
 	{
 		new_node->next = NULL;
 
 		aux->next = new_node;
 		new_node->prev = aux;
-
 		return (new_node);
 	}
 	free(new_node);
-	return(-1);
+	return (NULL);
 }
