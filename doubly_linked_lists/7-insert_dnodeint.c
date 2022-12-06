@@ -2,8 +2,9 @@
 
 
 /**
- **add_dnodeint- function
- *@head: variable
+ **insert_dnodeint_at_indext- function
+ *@h: variable
+ *@idx: variable
  *@n: variable
  *Return: variable
  */
@@ -41,8 +42,8 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 		}
 	}
 
-	new_node->prev = aux->next;
-	aux->next = new_node;
+	new_node->prev = aux->prev;
+	aux->prev = new_node;
 
 	return (new_node);
 }
