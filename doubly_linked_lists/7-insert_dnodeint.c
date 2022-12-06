@@ -1,6 +1,5 @@
 #include "lists.h"
 
-
 /**
  **insert_dnodeint_at_indext- function
  *@h: variable
@@ -30,20 +29,30 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 
 	new_node->n = n;
 
-	while (counter < idx - 1)
+	while (aux->next)
 	{
-		aux = aux->prev;
-		counter++;
-
-		if (!aux)
+		if (counter == idx)
 		{
-			free(new_node);
-			return (NULL);
+			aux->prev->next = new_node;
+			new_node->prev = aux->prev;
+
+			new_node->next = aux;
+			aux->prev = new_node;
+
+			return (new_node);
 		}
+		counter++;
+		aux = aux->prev;
 	}
+	if (counter + 1 == idx)
+	{
+		new_node->next = NULL;
 
-	new_node->prev = aux->prev;
-	aux->prev = new_node;
+		aux->next = new_node;
+		new_node->prev = aux;
 
-	return (new_node);
+		return (new_node);
+	}
+	free(new_node);
+	return(NULL);
 }
