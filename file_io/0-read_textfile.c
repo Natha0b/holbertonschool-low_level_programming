@@ -2,7 +2,7 @@
 
 /**
  *read_textfile- function
- *@filenae: variable
+ *@filename: variable
  *@letters: variable
  *Return: variable
  */
