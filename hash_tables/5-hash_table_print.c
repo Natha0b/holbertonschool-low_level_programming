@@ -1,13 +1,12 @@
 #include "hash_tables.h"
 
 /**
- * hash_djb2 -  function implementing the djb2 algorithm.
- * @str: const unsigned char variable
- * Return: unsigned long integer
+ * hash_table_print-  function
+ * @ht: const hash table t
  */
 void hash_table_print(const hash_table_t *ht)
 {
-	unsigned long int i;
+	unsigned long int i, aux = 0;
 	hash_node_t *head;
 
 	if (ht == NULL)
@@ -20,9 +19,13 @@ void hash_table_print(const hash_table_t *ht)
 		head = ht->array[i];
 		while (head)
 		{
-			printf(", ");
-			printf("\'%s': \'%s\'", head->key, head->value);
+			if (aux != 0)
+			{
+				printf(", ");
+			}
+			printf("'%s': '%s'", head->key, head->value);
 			head = head->next;
+			aux++;
 		}
 	}
 	printf("}\n");
