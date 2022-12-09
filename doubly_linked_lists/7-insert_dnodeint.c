@@ -38,7 +38,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 		counter++;
 		aux = aux->next;
 	}
-	if (counter < idx - 1)
+	if (counter + 1 == idx)
 	{
 		new_node->next = NULL;
 
